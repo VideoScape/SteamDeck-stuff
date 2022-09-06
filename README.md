@@ -20,7 +20,7 @@ adding https://github.com/krum110487/SSHDeck this in too so it will help.
 2. You can now run this with the following commands:
 ```shell
 # download the script to the current directory
-wget https://gist.githubusercontent.com/VideoScape/9824588434eebd75d7f554627a7d2991/raw/f1fda92cee6cf6de627fbe303940c344ad317142/script.sh
+https://raw.githubusercontent.com/VideoScape/SteamDeck-stuff/main/script.sh
 
 # execute the script and change permissions so it works
 sudo chmod a+x script.sh
