@@ -29,7 +29,8 @@ PASSWORD="DEFAULT_EMPTY_VALUE"
 wget https://raw.githubusercontent.com/VideoScape/SteamDeck-stuff/main/script.sh -P /home/deck/stuff/
 
 # execute the script and change permissions so it works
-printf "$PASSWORD\n" | sudo chmod a+x /home/deck/stuff/script.sh
-printf "$PASSWORD\n" | sudo /home/deck/stuff/script.sh
+echo $PASSWORD | sudo -S chmod a+x /home/deck/stuff/script.sh
+echo $PASSWORD | sudo -S /home/deck/stuff/script.sh
+
 
 ```
