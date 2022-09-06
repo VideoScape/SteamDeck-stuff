@@ -33,3 +33,7 @@ steamos-readonly enable
 
 
 rm -rf /home/deck/stuff
+
+echo "Done!"
+
+exit
