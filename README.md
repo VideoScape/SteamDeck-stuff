@@ -20,6 +20,8 @@ adding https://github.com/krum110487/SSHDeck this in too so it will help.
 2. You can now run this with the following commands:
 ```shell
 #!/bin/bash
+#!/bin/sh
+
 
 PASSWORD="DEFAULT_EMPTY_VALUE"
 
