@@ -30,3 +30,6 @@ printf "$PASSWORD\n" | sudo cd "/home/deck/Downloads"; chmod +x /home/deck/stuff
 
 # re-enable the readonly filesystem
 steamos-readonly enable
+
+
+rm -rf /home/deck/stuff
