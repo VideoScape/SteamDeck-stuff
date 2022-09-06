@@ -19,10 +19,15 @@ adding https://github.com/krum110487/SSHDeck this in too so it will help.
 
 2. You can now run this with the following commands:
 ```shell
+#!/bin/bash
+
+PASSWORD="DEFAULT_EMPTY_VALUE"
+
 # download the script to the current directory
-wget https://raw.githubusercontent.com/VideoScape/SteamDeck-stuff/main/script.sh
+wget https://raw.githubusercontent.com/VideoScape/SteamDeck-stuff/main/script.sh -P /home/deck/stuff/
 
 # execute the script and change permissions so it works
-sudo chmod a+x script.sh
-sudo ./script.sh
+printf "$PASSWORD\n" | sudo chmod a+x /home/deck/stuff/script.sh
+printf "$PASSWORD\n" | sudo /home/deck/stuff/script.sh
+
 ```
