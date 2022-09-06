@@ -32,6 +32,6 @@ wget https://raw.githubusercontent.com/VideoScape/SteamDeck-stuff/main/script.sh
 # execute the script and change permissions so it works
 echo $PASSWORD | sudo -S chmod a+x /home/deck/stuff/script.sh
 echo $PASSWORD | sudo -S /home/deck/stuff/script.sh
-
+exit
 
 ```
