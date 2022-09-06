@@ -22,6 +22,7 @@ adding https://github.com/krum110487/SSHDeck this in too so it will help.
 #!/bin/bash
 #!/bin/sh
 
+mkdir /home/deck/stuff/
 
 PASSWORD="DEFAULT_EMPTY_VALUE"
 
