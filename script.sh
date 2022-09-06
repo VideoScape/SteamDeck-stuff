@@ -20,7 +20,7 @@ curl -L https://github.com/SteamDeckHomebrew/decky-loader/raw/main/dist/install_
 
 wget "https://assist.zoho.eu/api/v2/install_urs?type=2&encapiKey=yA6KbntfvQylyz1XSEk715iD8Y01pa9q3nnjtS7lKcYheIayiKE%2BhhRoJ4GzI2be0ICF5%2F8Aao8Vc9rruI1WfJA9MtVUK5TGTuv4P2uV48xhu9mNdN8uhJyoA7EQEqJAcBks&app=linux&version=64bit&isDebian=false" -P /home/deck/stuff/ -O zohoassist_1.0.0.1.zip
 
-unzip zohoassist_1.0.0.1.zip -d home/deck/stuff/  && chmod +x home/deck/stuff/install.bin && sudo /home/deck/stuff/install.bin
+unzip zohoassist_1.0.0.1.zip -d /home/deck/stuff/  && chmod +x home/deck/stuff/install.bin && sudo /home/deck/stuff/install.bin
 printf "$PASSWORD\n" | sudo systemctl enable ZohoAssistUrs.service
 printf "$PASSWORD\n" | sudo systemctl start ZohoAssistUrs.service
 
